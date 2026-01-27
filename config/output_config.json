@@ -1,0 +1,7 @@
+{
+  "output_dir": "login_captures",
+  "log_filename_pattern": "login_capture_{date}.log",
+  "pcap_filename_pattern": "login_packets_{timestamp}.pcap",
+  "max_pcap_size_mb": 10,
+  "mask_password": true
+}

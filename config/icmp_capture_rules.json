@@ -1,0 +1,15 @@
+{
+  "description": "ICMP 报文抓取规则",
+  "network_filter": "icmp",
+  "target_types": [0, 8],
+  "target_ips": [],
+  "exclude_ips": [],
+  "log_fields": ["timestamp", "src_ip", "dst_ip", "icmp_type", "icmp_code", "id", "seq", "ttl"],
+  "output": {
+    "log_dir": "login_captures",
+    "log_filename_pattern": "icmp_capture_{date}.log",
+    "pcap_filename_pattern": "icmp_packets_{timestamp}.pcap",
+    "max_pcap_size_mb": 10,
+    "save_full_packet": true
+  }
+}

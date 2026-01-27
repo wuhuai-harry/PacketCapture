@@ -1,0 +1,22 @@
+{
+  "modes": [
+    {
+      "id": "http_login",
+      "name": "抓取登录包 (HTTP)",
+      "module": "capture_modes.http_login",
+      "class": "HttpLoginCapture"
+    },
+    {
+      "id": "dns",
+      "name": "抓取 DNS 报文",
+      "module": "capture_modes.dns_capture",
+      "class": "DnsCapture"
+    },
+    {
+      "id": "icmp",
+      "name": "抓取 ICMP Ping 包",
+      "module": "capture_modes.icmp_capture",
+      "class": "IcmpCapture"
+    }
+  ]
+}

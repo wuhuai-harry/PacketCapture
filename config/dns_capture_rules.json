@@ -1,0 +1,8 @@
+{
+  "description": "DNS 报文抓取配置",
+  "network_filter": "udp port 53 or tcp port 53",
+  "target_domains": [],
+  "only_queries": false,
+  "only_responses": false,
+  "extract_answers": true
+}
